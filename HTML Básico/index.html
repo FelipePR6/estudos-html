@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- No meta charset descrevemos qual vai ser o character encoding-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- No content estamos dizendo que o tamanho do conteudo será o tamanho da tela-->
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Aqui linkamos o nosso arquivo css, a propriedade rel se refere a que tipo de arquivo estamos linkando e o href aonde está esses estilos-->
+</head>
+<body>
+    
+    <header class="cabecalho"><!-- O que estiver no <header> no cabeçalho da página-->
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+
+    </header>
+    
+    
+    <main class="apresentacao"><!-- O que estiver no <main> no corpo da página-->
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">
+                Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong>
+            </h1>
+            <!-- <strong> coloca o texto em negrito, a propriedade class é porque a tag está usando a classe referida-->
+            <p class="apresentacao__conteudo__texto">
+                Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
+            </p>
+
+            <div class="apresentacao__conteudo__links">
+                <h2 class="apresentacao__conteudo__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__conteudo__links__navegacao" href="https://github.com/FelipePR6">
+                    <img src="./assets/Logo Github.png">
+                    Github
+                </a>
+                <a class="apresentacao__conteudo__links__navegacao" href="https://www.linkedin.com/in/felipe-pinheiro-rocha-b14112187">
+                    <img src="./assets/Logo linkedin.png">
+                    LinkedIn
+                </a>
+                <a class="apresentacao__conteudo__links__navegacao" href="https://github.com/FelipePR6">
+                    <img src="./assets/Logo Twitch.png">
+                    Twitch
+                </a>
+                <!-- A tag <a> vem de ancora e a propriedade href sempre está ligada a um link-->
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Joana Santos Programando">
+    </main>
+
+    <footer><!-- O que estiver no <footer> no rodapé da página-->
+        <p class="rodape">Desenvolvido Por Felipe</p>
+    </footer>
+    
+</body>
+</html>
